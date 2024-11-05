@@ -19,4 +19,4 @@ It will take hours to run and use many GB of RAM.
 * stan_code_simple.txt nominal UNITY1.5 model
 * stan_code_fixed.txt model with improved outlier limits (see Appendix B)
 * mu_mat_union3_cosmo=2_mu.fits compressed distances for Union3+UNITY1.5; the first row is redshift, the first column is distance modulus, the rest of the matrix is the inverse covariance matrix
-* lcfit_Union3.tar.gz is a tarball of input files, lc fitting result files, and SNe passing cuts (*_v1.txt)
+* lcfit_Union3.tar.gz is a tarball of input files, lc fitting result files, and SNe passing cuts (*_v1.txt). Note that the MW extinction is double scaled by 0.86, but UNITY self-calibrates this out so it ends up not mattering.
