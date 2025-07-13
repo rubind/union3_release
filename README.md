@@ -21,3 +21,4 @@ It will take hours to run and use many GB of RAM.
 * mu_mat_union3_cosmo=2_mu.fits fits file containing compressed distances for Union3+UNITY1.5; the first row is redshift, the first column is distance modulus, the rest of the matrix is the inverse covariance matrix
 * lcfit_Union3.tar.gz is a tarball of input files, lc fitting result files, and SNe passing cuts (*_v1.txt). Note that the MW extinction is double scaled by 0.86, but UNITY self-calibrates this out so it ends up not mattering.
 * simple_Gaussian_check.py python script that reads all_samples_union3_cosmo=2.npz and shows some summary statistics on the spline nodes (all_samples_union3_cosmo=2.npz is the (n_samples x n_nodes) spline-node MCMC samples). The spline nodes are perturbations with respect to flat LCDM with Omega_m=0.3.
+* BAO_results.txt are the BAO distances used in Union3.
